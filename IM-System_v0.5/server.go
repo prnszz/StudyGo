@@ -1,4 +1,4 @@
-// Version: 0.4
+// Version: 0.5
 // Description: 服务器端
 // server.go
 
@@ -72,7 +72,7 @@ func (this *Server) Handler(conn net.Conn) {
 		for {
 			n, err := conn.Read(buf) // 读取客户端发送的消息
 			if n == 0 {              // 客户端断开连接
-				user.Offline() // 用户下线
+				user.Offline() // 广播用户下线消息
 				return
 			}
 			if err != nil && err != io.EOF {
