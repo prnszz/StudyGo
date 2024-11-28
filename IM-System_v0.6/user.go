@@ -1,5 +1,5 @@
 // Description: 定义用户结构体及相关方法.
-// Version: 0.5
+// Version: 0.6
 // user.go
 
 package main

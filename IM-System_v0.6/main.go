@@ -1,6 +1,6 @@
 // Description: Main entry of the IM system.
 // main.go
-// version: 0.5
+// version: 0.6
 
 package main
 

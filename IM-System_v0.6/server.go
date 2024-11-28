@@ -1,4 +1,4 @@
-// Version: 0.5
+// Version: 0.6
 // Description: 服务器端
 // server.go
 
